@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/M0BiN/Hosh_2/static/css/main.85d6433c.chunk.css",
-    "main.js": "/M0BiN/Hosh_2/static/js/main.2c09a2f4.chunk.js",
-    "main.js.map": "/M0BiN/Hosh_2/static/js/main.2c09a2f4.chunk.js.map",
-    "runtime-main.js": "/M0BiN/Hosh_2/static/js/runtime-main.736ff19f.js",
-    "runtime-main.js.map": "/M0BiN/Hosh_2/static/js/runtime-main.736ff19f.js.map",
-    "static/js/2.7080077a.chunk.js": "/M0BiN/Hosh_2/static/js/2.7080077a.chunk.js",
-    "static/js/2.7080077a.chunk.js.map": "/M0BiN/Hosh_2/static/js/2.7080077a.chunk.js.map",
-    "index.html": "/M0BiN/Hosh_2/index.html",
-    "precache-manifest.b668eb1371b2da8cf2675e974ff0d012.js": "/M0BiN/Hosh_2/precache-manifest.b668eb1371b2da8cf2675e974ff0d012.js",
-    "service-worker.js": "/M0BiN/Hosh_2/service-worker.js",
-    "static/css/main.85d6433c.chunk.css.map": "/M0BiN/Hosh_2/static/css/main.85d6433c.chunk.css.map",
-    "static/js/2.7080077a.chunk.js.LICENSE": "/M0BiN/Hosh_2/static/js/2.7080077a.chunk.js.LICENSE"
+    "main.css": "/Hosh_2/static/css/main.85d6433c.chunk.css",
+    "main.js": "/Hosh_2/static/js/main.0d22350b.chunk.js",
+    "main.js.map": "/Hosh_2/static/js/main.0d22350b.chunk.js.map",
+    "runtime-main.js": "/Hosh_2/static/js/runtime-main.a6b29a30.js",
+    "runtime-main.js.map": "/Hosh_2/static/js/runtime-main.a6b29a30.js.map",
+    "static/js/2.7080077a.chunk.js": "/Hosh_2/static/js/2.7080077a.chunk.js",
+    "static/js/2.7080077a.chunk.js.map": "/Hosh_2/static/js/2.7080077a.chunk.js.map",
+    "index.html": "/Hosh_2/index.html",
+    "precache-manifest.1390c7bb767c9f7bc307ee19b352202a.js": "/Hosh_2/precache-manifest.1390c7bb767c9f7bc307ee19b352202a.js",
+    "service-worker.js": "/Hosh_2/service-worker.js",
+    "static/css/main.85d6433c.chunk.css.map": "/Hosh_2/static/css/main.85d6433c.chunk.css.map",
+    "static/js/2.7080077a.chunk.js.LICENSE": "/Hosh_2/static/js/2.7080077a.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.736ff19f.js",
+    "static/js/runtime-main.a6b29a30.js",
     "static/js/2.7080077a.chunk.js",
     "static/css/main.85d6433c.chunk.css",
-    "static/js/main.2c09a2f4.chunk.js"
+    "static/js/main.0d22350b.chunk.js"
   ]
 }
