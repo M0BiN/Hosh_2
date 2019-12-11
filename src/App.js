@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import * as tf from '@tensorflow/tfjs';
 import axios from 'axios';
 import khoda from './Images';
 import InfiniteScroll from 'react-infinite-scroll-component';
@@ -72,7 +71,7 @@ function App() {
 
                         <Challenged_image img={images[index]} name={label[index]} setIndex={setIndex} />
                         <div className='p-container'>
-                        {myClass.map((value, index)=><ProegressBar precent={amar[index]} label={value} id={index}/>
+                        {myClass.map((value, index)=><ProegressBar precent={amar[index]} label={value} id={index} key={'p'+index}/>
                         )}
                         
                         

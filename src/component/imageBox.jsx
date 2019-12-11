@@ -10,7 +10,7 @@ const imageBox = ({ imageArray, name, setIndex, shuffle, setAmar }) => {
 
   const All = imageArray.map((value, index) =>
     <div className='image-pack' onClick={() => onClicked(index)}>
-      <img className={'test_image'} src={value} alt={label[index]} id={label[index]+''+index} />
+      <img className={'test_image'} src={value} alt={label[index]} key={label[index]+''+index} />
       <span className='img-text'>{label[index]}</span>
     </div>
 
