@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/M0BiN/Hosh_2/static/css/main.85d6433c.chunk.css",
+    "main.js": "/M0BiN/Hosh_2/static/js/main.2c09a2f4.chunk.js",
+    "main.js.map": "/M0BiN/Hosh_2/static/js/main.2c09a2f4.chunk.js.map",
+    "runtime-main.js": "/M0BiN/Hosh_2/static/js/runtime-main.736ff19f.js",
+    "runtime-main.js.map": "/M0BiN/Hosh_2/static/js/runtime-main.736ff19f.js.map",
+    "static/js/2.7080077a.chunk.js": "/M0BiN/Hosh_2/static/js/2.7080077a.chunk.js",
+    "static/js/2.7080077a.chunk.js.map": "/M0BiN/Hosh_2/static/js/2.7080077a.chunk.js.map",
+    "index.html": "/M0BiN/Hosh_2/index.html",
+    "precache-manifest.af2e2357525af57eb064f96bb6e19d45.js": "/M0BiN/Hosh_2/precache-manifest.af2e2357525af57eb064f96bb6e19d45.js",
+    "service-worker.js": "/M0BiN/Hosh_2/service-worker.js",
+    "static/css/main.85d6433c.chunk.css.map": "/M0BiN/Hosh_2/static/css/main.85d6433c.chunk.css.map",
+    "static/js/2.7080077a.chunk.js.LICENSE": "/M0BiN/Hosh_2/static/js/2.7080077a.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.736ff19f.js",
+    "static/js/2.7080077a.chunk.js",
+    "static/css/main.85d6433c.chunk.css",
+    "static/js/main.2c09a2f4.chunk.js"
+  ]
+}
