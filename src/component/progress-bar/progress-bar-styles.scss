@@ -105,3 +105,15 @@ $bar-bg: rgba(255, 255, 255, 0.075);
   align-items: center;
   margin-left: 4%;
 }
+
+
+
+ /* Extra Small Devices, Phones */ 
+ @media only screen and (max-width : 480px) {
+  .progress-container{
+    margin-right: 10%;
+  
+  }
+
+
+}

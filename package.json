@@ -1,7 +1,9 @@
 {
-  "name": "my-app",
+  "name": "Hosh_2",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://m0bin.github.io/Hosh_2/",
+
   "dependencies": {
     "@material-ui/core": "^4.7.1",
     "@tensorflow/tfjs": "^1.4.0",
@@ -10,6 +12,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.0",
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.1.1",
     "install": "^0.13.0",
     "pngjs": "^3.4.0",
     "rc-progress": "^2.5.2",
@@ -23,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

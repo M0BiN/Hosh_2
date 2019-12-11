@@ -7,7 +7,7 @@ const Challenged_image = ({img, name})=>{
 
 return(
     <div className='cimage-pack'>
-      <img className={'ctest_image'} src={img} alt={name} id={0} />
+      <img className={'ctest_image'} src={img} alt={name} id={name+-1} />
         <span className='cimg-text'>{name}</span>
     </div>
 )

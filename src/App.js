@@ -7,7 +7,9 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 import ImageBox from './component/imageBox'
 import Challenged_image from './component/Challenged_image.js';
 import ProegressBar from './component/progress-bar/progress-bar-component';
+import label from './labels';
 let totalImage = 50;
+
 let amar1 = [25, 30, 45 , 70 , 80 ,30 , 44 , 32, 10, 90]
 let myClass = ['T-shirt/top',
                'Trouser    ',
@@ -68,7 +70,7 @@ function App() {
 
 
 
-                        <Challenged_image img={images[index]} name={'T-Shirt'} setIndex={setIndex} />
+                        <Challenged_image img={images[index]} name={label[index]} setIndex={setIndex} />
                         <div className='p-container'>
                         {myClass.map((value, index)=><ProegressBar precent={amar[index]} label={value} id={index}/>
                         )}

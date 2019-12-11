@@ -47,3 +47,31 @@ background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
       -ms-transform: scale(1.08);
       transform: scale(1.1)
 }
+
+
+
+   /* Extra Small Devices, Phones */ 
+   @media only screen and (max-width : 480px) {
+    .test_image{
+      width: 80px;
+      height: 80px;
+  
+    
+    }
+    .image-pack{
+      height: 110px;
+      width: 100px;
+  
+  
+  
+  }
+
+
+  .image_container{
+    margin-left: 10px;
+    
+  
+  }
+  
+  
+  }
