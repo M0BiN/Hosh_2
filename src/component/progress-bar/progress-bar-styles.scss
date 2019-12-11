@@ -111,9 +111,20 @@ $bar-bg: rgba(255, 255, 255, 0.075);
  /* Extra Small Devices, Phones */ 
  @media only screen and (max-width : 480px) {
   .progress-container{
-    margin-right: 10%;
-  
-  }
+    
+
+ 
 
 
 }
+
+
+.className{
+  margin-bottom:-28%;
+
+}
+
+.progress-bar {
+  margin-bottom:-5%;
+}
+ }
