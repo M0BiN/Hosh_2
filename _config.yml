@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
 title                    : "Yssse"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     :  "Your Name"
+description              :  "personal description"
