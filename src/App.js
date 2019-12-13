@@ -103,11 +103,11 @@ const justfortest = (input, setAmar) => {
 
 const shuffle = (setAmar, indx, current_index)=>{
     if(current_index === indx)return;
-    justfortest(indx, setAmar);
-    // amar1 = []
-    // for(let i = 0; i < 10; i++)
-    // amar1.push(Math.floor(Math.random() * Math.floor(100)));
-    // setAmar(amar1);
+    // justfortest(indx, setAmar);
+    amar1 = []
+    for(let i = 0; i < 10; i++)
+    amar1.push(Math.floor(Math.random() * Math.floor(100)));
+    setAmar(amar1);
 }
 
 
