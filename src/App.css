@@ -1,6 +1,4 @@
-
-
-.Main-Scroll-Container{
+.Main-Scroll-Container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -10,17 +8,17 @@
   box-shadow: 1 1 2 4 black;
   box-sizing: border-box;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
-  background-color: #f3e6e8;
-background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
-background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 
-width: 60%;
+  background-color: #f3e6e8;
+  background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+
+  width: 60%;
 
 
 }
 
-.static-div{
+.static-div {
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -29,18 +27,18 @@ width: 60%;
   color: wheat;
   top: 0;
   position: fixed;
-  border-radius:0% 0  0  0;
+  border-radius: 0% 0 0 0;
   background-color: #000000;
-background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 
 }
 
-.ScrollContainer{
+.ScrollContainer {
   left: 0;
 }
 
 
-.p-container{
+.p-container {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -50,21 +48,24 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 }
 
 
- /* Extra Small Devices, Phones */ 
- @media only screen and (max-width : 480px) {
-  .static-div{
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .static-div {
     width: 60%;
     height: 100%;
 
   }
 
-  .p-container{
-   height: 85%;
-   top: 28%;
-   right: 8%;
-  
+  .p-container {
+    height: 85%;
+    top: 28%;
+    right: 8%;
+
   }
 
 
 }
 
+body {
+  background: black;
+}

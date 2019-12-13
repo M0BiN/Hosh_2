@@ -1,11 +1,14 @@
 import React from 'react';
 import './imageBox.css';
 import label from '../labels';
-const imageBox = ({ imageArray, name, setIndex, shuffle, setAmar }) => {
+const imageBox = ({ imageArray, name, setIndex, shuffle, setAmar, current_index }) => {
 
   const onClicked = (index) => {
-    setIndex(index);
-    shuffle(setAmar);
+    if(current_index!==index){
+      setIndex(index);
+      shuffle(setAmar, index);
+    }
+    
   };
 
   const All = imageArray.map((value, index) =>

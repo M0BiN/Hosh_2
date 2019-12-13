@@ -60,7 +60,7 @@ function App() {
                                     alt="loading"
                                 />}
                         >
-                            <ImageBox imageArray={images} setIndex={setIndex} shuffle={shuffle} setAmar={setAmar}/>
+                            <ImageBox imageArray={images} setIndex={setIndex} shuffle={shuffle} setAmar={setAmar} current_index={index}/>
 
 
                         </InfiniteScroll>
@@ -91,7 +91,8 @@ const justfortest = (input, setAmar) => {
       axios.get(`http://127.0.0.1:5050/login?username=${input}`)
       .then((data)=>{
         console.log(data.data)
-        setAmar(data.data)
+        let fin = rounding(data.data[0])
+        setAmar(fin)
 
       })
 
@@ -100,12 +101,13 @@ const justfortest = (input, setAmar) => {
 
 }
 
-const shuffle = (setAmar, indx)=>{
-    // justfortest(indx, setAmar);
-    amar1 = []
-    for(let i = 0; i < 10; i++)
-    amar1.push(Math.floor(Math.random() * Math.floor(100)));
-    setAmar(amar1);
+const shuffle = (setAmar, indx, current_index)=>{
+    if(current_index === indx)return;
+    justfortest(indx, setAmar);
+    // amar1 = []
+    // for(let i = 0; i < 10; i++)
+    // amar1.push(Math.floor(Math.random() * Math.floor(100)));
+    // setAmar(amar1);
 }
 
 
@@ -120,3 +122,41 @@ const fetchImages = (setImages, setIsLoaded) => {
     totalImage += 10;
     setIsLoaded(true);
 };
+
+
+
+
+
+
+const sumof = (myarray)=>{
+    let sum = 0;
+    for(let i = 0; i < myarray.length ; i++){
+            sum += myarray[i];
+    }
+    return sum;
+}
+
+
+const bigIndex = (myarray)=>{
+    let target = 0;
+    for(let i = 0; i < myarray.length ; i++){
+        if(myarray[i]>=myarray[target]){
+            target = i;
+        }
+
+    }
+    return target;
+}
+
+
+const rounding = (myarray)=>{
+
+    while(sumof(myarray) !== 100 ){
+        let difference = 100 - sumof(myarray);
+        myarray[bigIndex(myarray)] += difference;
+    }
+
+    return myarray;
+
+
+}

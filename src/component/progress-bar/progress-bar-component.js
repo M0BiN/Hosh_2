@@ -13,7 +13,7 @@ const ProgressBar = ({ precent, label }) => {
         <div class="progress-bar">
         {precent}%
             <span class="bar">
-                <span class="progress" style={{ width: `${precent}%` }}></span>
+                <span class="progress" style={{ width: `${precent}%`, opacity:(precent < 1) ? '0' : '1'}}></span>
                 
             </span>
         </div>
