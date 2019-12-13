@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
-page.content: Hosh_HW2
-page.title: Hosh_HW2
+title                    : "Your Name / Site Title"
+title_separator          : "-"
+name                     : &name "Your Name"
+description              : &description "personal description"
